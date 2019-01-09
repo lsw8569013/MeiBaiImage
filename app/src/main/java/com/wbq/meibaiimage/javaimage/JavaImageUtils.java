@@ -13,7 +13,7 @@ public class JavaImageUtils {
     //亮度
     private static final float brighness=0.2f;
     //对比度
-    private static final float contrinst=2.0f;
+    private static final float contrinst=0.2f;
     public static Bitmap getImageBitmap(Bitmap bitmap){
         int width=bitmap.getWidth();
         int height=bitmap.getHeight();

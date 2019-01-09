@@ -6,6 +6,12 @@ package com.wbq.meibaiimage.ndkimage;
  */
 
 public class NdkImageUtils {
+
+
+    static {
+        System.loadLibrary("imagemb-lib");
+    }
+
     public static native int[] getNdkImage(int[] buffer,int width,int height);
 
 }

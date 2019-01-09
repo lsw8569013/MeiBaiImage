@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Example of a call to a native method
         iv_image = (ImageView) findViewById(R.id.imageView);
-        mBitmap= BitmapFactory.decodeResource(getResources(),R.drawable.image);
+        mBitmap= BitmapFactory.decodeResource(getResources(),R.drawable.timg);
         /*美白 argb 调节argb
         * 1.亮度
         * 2.对比度
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
     //展示原图
     public void srcImage(View v){
-        iv_image.setImageResource(R.drawable.image);
+        iv_image.setImageResource(R.drawable.timg);
     }
     //java 图像处理
     public void javaImage(View v){
